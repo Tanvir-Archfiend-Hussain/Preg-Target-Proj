@@ -1,3 +1,7 @@
+body {
+  background: url(https://static.toiimg.com/photo/71761057.cms);
+  background-size: 400px 600px;
+}
 .container {
   background: purple;
   width: 1300px;
