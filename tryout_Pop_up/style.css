@@ -1,0 +1,24 @@
+.container {
+  background: purple;
+  width: 1300px;
+  height: auto;
+  transform: translate(10%, 10%);
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photoBooth {
+  background-color: aqua;
+  width: 240px;
+  height: auto;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 10%;
+}
+
+.photoBooth img {
+  width: 230px;
+  height: 330px;
+  cursor: pointer;
+}
