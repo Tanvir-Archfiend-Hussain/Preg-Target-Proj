@@ -1,28 +1,44 @@
 body {
-  background: url(https://static.toiimg.com/photo/71761057.cms);
+  margin: 0;
+  padding: 0;
+  background-image: url(../image/71761057.webp);
   background-size: 400px 600px;
 }
+
 .container {
-  background: purple;
-  width: 1300px;
-  height: auto;
-  transform: translate(10%, 10%);
-  padding: 10px;
-  display: flex;
-  flex-wrap: wrap;
+  width: 90%;
+  margin: 10px auto;
+  background-color: purple;
 }
 
-.photoBooth {
+.portfolio-menu {
+  text-align: center;
+}
+
+.portfolio-menu ul li {
+  display: inline-block;
+  margin: 0;
+  list-style: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.portfolio-item {
+  width: 100%;
+}
+
+.portfolio-item .item {
+  margin-bottom: 10px;
   background-color: aqua;
   width: 240px;
-  height: auto;
   padding: 10px;
   margin: 15px;
   border-radius: 10%;
 }
-
-.photoBooth img {
+.portfolio-item .item img {
+  border-radius: 15px;
   width: 230px;
   height: 330px;
-  cursor: pointer;
-}
+  margin-left: 15px;
+}/*# sourceMappingURL=style.css.map */
