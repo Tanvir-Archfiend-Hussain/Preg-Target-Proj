@@ -6,13 +6,14 @@ body {
 }
 
 .container {
-  width: 90%;
   margin: 10px auto;
   background-color: rgba(128, 0, 128, 0.737);
+  border-radius: 15%;
 }
 
 .portfolio-menu {
   text-align: center;
+  border-radius: 5%;
 }
 
 .portfolio-menu ul li {
